@@ -1,0 +1,27 @@
+---
+title: "ussie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ussie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+This is a package built as part of a workshop led yb Emma Rand. The packages works to to tidy data from the league-play matches of European Football Leagues. 
+
+``` r
+library(ussie)
+library(dplyr)
+
+```
+
+``` r
+matches_italy <- uss_make_matches(engsocerdata::italy,"Italy")
+glimpse(matches_italy)
+```
