@@ -33,9 +33,7 @@ devtools::install_github("maracena/ussie")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
-library(ussie)
-## basic example code
+``` r
 uss_make_matches(engsoccerdata::spain,"Spain")
 ```
 
