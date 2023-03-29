@@ -1,9 +1,8 @@
 Package: ussie
 Title: Tidies Football data
 Version: 0.0.0.9000
-Authors@R: 
-    person("Miguel ", "Aracena Velazquez", , "maaracena27@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Authors@R: person("Miguel ", "Aracena Velazquez", ,  "maaracena27@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2630-8831"))
 Description: This is a demo package for the "Building Tidy Tools" workshop at 
     at rstudio::conf(2022L). It allows you to work with European football 
     league data supplied by the engsoccerdata package (Curley 2016).
@@ -14,5 +13,9 @@ RoxygenNote: 7.2.3
 URL: https://github.com/maracena/ussie
 BugReports: https://github.com/maracena/ussie/issues
 Suggests: 
+    engsoccerdata,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    tibble
