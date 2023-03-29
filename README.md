@@ -4,6 +4,8 @@
 # ussie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/rstudio-conf-2022/ussie/workflows/R-CMD-check/badge.svg)](https://github.com/rstudio-conf-2022/ussie/actions)
 <!-- badges: end -->
 
 The goal of ussie is to tidy football data.
